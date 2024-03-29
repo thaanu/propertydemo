@@ -21,6 +21,11 @@
     date_default_timezone_set($appConfig->timezone);
 
     /**
+     * Routes
+     */
+    $routes = include dirname(__DIR__) . '/routes.php';
+
+    /**
      * Database Connection
      */
     include __DIR__ . '/database.php';
