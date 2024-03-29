@@ -10,4 +10,5 @@
 </head>
 
 <body>
+    <?php include dirname(__DIR__) . '/components/_preloader.inc.php'; ?>
     <?php include dirname(__DIR__) . '/components/_navbar.inc.php'; ?>
