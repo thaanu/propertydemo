@@ -6,7 +6,7 @@ $requestUri = $_SERVER['REQUEST_URI'];
 $page = "home";
 $requestParams = [];
 $requestUri = ltrim($requestUri, "/");
-
+$requestUri = strtok($requestUri, '?');
 
 if ( !empty($requestUri) ) {
 
@@ -14,6 +14,7 @@ if ( !empty($requestUri) ) {
 	$page = $pages[0];
 	unset($pages[0]);
 	$requestParams = $pages;
+
 
 	// $routes
 	if ( array_key_exists($page, $routes) ) {
