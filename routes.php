@@ -3,5 +3,6 @@ return [
     'home' => 'home',
     'contact-us' => 'contact',
     'about-us' => 'about',
-    'properties' => 'property'
+    'properties' => 'property',
+    'search' => 'search'
 ];
