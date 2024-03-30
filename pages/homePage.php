@@ -103,7 +103,7 @@ $propertiestha = [
         <div class="row">
             <div class="col-lg-6">
                 <h1 class="mb-5">Get Started Now</h1>
-                <p>Get your account and start finding your dream apartment.</p>
+                <p>Start finding your dream apartment now.</p>
             </div>
             <div class="col-lg-4">
                 <form action="/register/signup" id="signup-form">
