@@ -1,0 +1,84 @@
+@import '_mixins';
+
+body {
+    
+    #preloader {
+        background: white;
+        position: fixed;
+        height: 100vh;
+        width: 100%;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+
+        #animation {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: orange;
+            width: 30px;
+            height: 30px;
+        }
+    }
+    
+    #hero-section {
+
+        position: relative;
+        height: 320px;
+        @include on-desktop {
+            height: 600px;
+        }
+        overflow: hidden;
+        #bg-img {
+            img {
+                width: 100%;
+            }
+            width: 100%;
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            z-index: -1;
+        }
+
+        #search-form-desktop {
+            display: none;
+            background: rgba(255,255,255,0.5);
+            width: 60%;
+            padding: 20px;
+            box-sizing: border-box;
+            border-radius: 20px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            @include on-desktop {
+                display: block;
+            }
+        }
+
+        #search-form-mobile {
+            display: block;
+            @include on-mobile {
+                display: none;
+            }
+        }
+
+    }
+
+    #search-page {
+        height: 100vh;
+        .page-header {
+            background: url('../images/qusai-akoud-pNMrIxWLGxg-unsplash.jpg') center bottom no-repeat;
+            background-size: cover;
+            height: 320px;
+        }
+    }
+
+    footer {
+        font-size: 0.8rem;
+        background: #333;
+        color: #999;
+    }
+
+}

@@ -1,9 +1,13 @@
+function _so(element) {
+    return document.querySelector(element);
+}
+function _sa(element) {
+    return document.querySelectorAll(element);
+}
+
 document.addEventListener("DOMContentLoaded", (event) => {
 
     // Handle Preloader 
-    document.querySelector('#preloader').style.display = 'none';
-
-
-    
+    _so('#preloader').style.display = 'none';
 
 });
