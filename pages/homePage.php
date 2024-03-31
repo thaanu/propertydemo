@@ -46,40 +46,42 @@ $propertiestha = [
     </div>
 </div>
 
-<div class="container">
-    <div class="py-5">
-        <div class="row">
-            <div class="col-lg-3">
-                <center>
-                    <i>icon</i>
-                    <h5 class="my-3">Loan Care</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <a href="" class="btn btn-outline-primary btn-sm mt-5">More Info</a>
-                </center>
-            </div>
-            <div class="col-lg-3">
-                <center>
-                    <i>icon</i>
-                    <h5 class="my-3">Loan Care</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <a href="" class="btn btn-outline-primary btn-sm mt-5">More Info</a>
-                </center>
-            </div>
-            <div class="col-lg-3">
-                <center>
-                    <i>icon</i>
-                    <h5 class="my-3">Loan Care</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <a href="" class="btn btn-outline-primary btn-sm mt-5">More Info</a>
-                </center>
-            </div>
-            <div class="col-lg-3">
-                <center>
-                    <i>icon</i>
-                    <h5 class="my-3">Loan Care</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <a href="" class="btn btn-outline-primary btn-sm mt-5">More Info</a>
-                </center>
+<div class="bg-body">
+    <div class="container">
+        <div class="py-5">
+            <div class="row">
+                <div class="col-lg-3">
+                    <center>
+                        <i class="fas fa-building-columns hp-icons"></i>
+                        <h5 class="my-3">Loan Care</h5>
+                        <p><small>Lorem ipsum dolor sit amet consectetur adipisicing elit.</small></p>
+                        <a href="" class="btn btn-outline-primary btn-sm mt-5">More Info</a>
+                    </center>
+                </div>
+                <div class="col-lg-3">
+                    <center>
+                        <i class="fas fa-bell hp-icons"></i>
+                        <h5 class="my-3">Alerts</h5>
+                        <p><small>Lorem ipsum dolor sit amet consectetur adipisicing elit.</small></p>
+                        <a href="" class="btn btn-outline-primary btn-sm mt-5">More Info</a>
+                    </center>
+                </div>
+                <div class="col-lg-3">
+                    <center>
+                        <i class="fas fa-piggy-bank hp-icons"></i>
+                        <h5 class="my-3">Cheap Deals</h5>
+                        <p><small>Lorem ipsum dolor sit amet consectetur adipisicing elit.</small></p>
+                        <a href="" class="btn btn-outline-primary btn-sm mt-5">More Info</a>
+                    </center>
+                </div>
+                <div class="col-lg-3">
+                    <center>
+                        <i class="fas fa-home hp-icons"></i>
+                        <h5 class="my-3">Loan Care</h5>
+                        <p><small>Lorem ipsum dolor sit amet consectetur adipisicing elit.</small></p>
+                        <a href="" class="btn btn-outline-primary btn-sm mt-5">More Info</a>
+                    </center>
+                </div>
             </div>
         </div>
     </div>
