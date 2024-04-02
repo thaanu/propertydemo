@@ -1,14 +1,13 @@
+
+<?php if ( isset($carouselImages) ) : ?>
+
 <div id="carouselExample" class="carousel slide" >
     <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img src="<?= $appConfig->base_url ?>/assets/images/allphoto-bangkok-nI4aC1kaTRc-unsplash.jpg" class="d-block w-100" alt="...">
+        <?php for ( $i = 0; $i < count($carouselImages); $i++ ) : ?>
+        <div class="carousel-item <?= ( $i == 0 ? ' active ' : '' ) ?>">
+            <img src="<?= $carouselImages[$i]; ?>" class="d-block w-100" alt="...">
         </div>
-        <div class="carousel-item">
-            <img src="<?= $appConfig->base_url ?>/assets/images/allphoto-bangkok-nI4aC1kaTRc-unsplash.jpg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-            <img src="<?= $appConfig->base_url ?>/assets/images/allphoto-bangkok-nI4aC1kaTRc-unsplash.jpg" class="d-block w-100" alt="...">
-        </div>
+        <?php endfor; ?>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -19,3 +18,5 @@
         <span class="visually-hidden">Next</span>
     </button>
 </div>
+
+<?php endif; ?>
