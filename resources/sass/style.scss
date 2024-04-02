@@ -87,4 +87,62 @@ body {
         color: #666;
     }
 
+    .image-frame {
+        overflow: hidden;
+        height: 420px;
+    }
+
+    .small-image-frame {
+        height: 200px;
+        overflow: hidden;
+    }
+
+    .image-frame, .small-image-frame {
+        img {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 100%;
+            transform: translate(-50%, -50%);
+            transition: all 0.3s ease-in-out;
+        }
+    }
+
+    .image-frame-rounded {
+        border-radius: 20px;    
+        position: relative;
+    }
+
+    .contact-form {
+        background: #d9e8f8;
+        padding: 20px;
+        border-radius: 20px;
+        h4 {
+            color: #0e3e72;
+        }
+    }
+
+
+    #property-page {
+        #pricing {
+            background: #0e3e72;
+            width: 200px;
+            padding: 20px;
+            border-radius: 20px;
+            color: #fff;
+            span {
+                font-size: 2rem;
+            }
+        }
+
+        #details {
+            padding: 40px 0;
+            i {
+                font-size: 1.8rem;
+                margin-right: 10px;
+                color: #0e3e72;
+            }
+        }
+    }
+
 }
