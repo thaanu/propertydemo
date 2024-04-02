@@ -1,30 +1,11 @@
-<?php getHeader(); ?>
-<?php
-$propertiestha = [
-    [
-        "name" => "Home",
-        "city" => 'Male',
-        'type' => 'Apartment',
-        'price' => '50,000'
-    ],
-    [
-        "name" => "Home 2",
-        "city" => 'Hulhumale',
-        'type' => 'House',
-        'price' => '250,000'
-    ],
-    [
-        "name" => "Lemuni, Daunan Worldwide",
-        "city" => 'Male',
-        'type' => 'Apartment',
-        'price' => '60,000'
-    ]
-]
+<?php 
+getHeader();
+$propertiestha = include __DIR__ . '/../resources/data/properties.php';
 ?>
 
 <div id="hero-section">
     <div id="bg-img">
-        <img src="<?= $appConfig->base_url ?>/assets/images/allphoto-bangkok-nI4aC1kaTRc-unsplash.jpg" alt="allphoto-bangkok-nI4aC1kaTRc-unsplash.jpg">
+        <img src="<?= $appConfig->base_url ?>/assets/images/allphoto-bangkok-nI4aC1kaTRc-unsplash.jpg" alt="allphoto-bangkok-nI4aC1kaTRc-unsplash">
     </div>
     <div id="search-form-mobile">
         <button type="button" id="search-on-mobile-btn" class="btn btn-default">Search</button>
